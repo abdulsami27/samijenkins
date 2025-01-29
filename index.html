@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sami Loves Ayesha</title>
+  <title>Welcome to My Side</title>
   <style>
     body {
       margin: 0;
@@ -37,11 +37,11 @@
       to { background-position: 10000px 10000px; }
     }
 
-    /* Beautiful Name */
+    /* Welcome Text */
     .message {
-      font-size: 3em;
+      font-size: 3.5em;
       text-align: center;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.7);
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 25px rgba(255, 255, 255, 0.7);
       margin-bottom: 20px;
       animation: fadeIn 3s ease-in-out;
     }
@@ -99,8 +99,8 @@
     /* Boy Image */
     .boy {
       position: absolute;
-      bottom: 10%;
-      left: 10%;
+      bottom: 15%;
+      left: 5%;
       width: 150px;
       height: auto;
       border-radius: 50%;
@@ -111,13 +111,24 @@
     /* Girl Image */
     .girl {
       position: absolute;
-      bottom: 10%;
-      right: 10%;
+      bottom: 15%;
+      right: 5%;
       width: 150px;
       height: auto;
       border-radius: 50%;
       box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
       animation: fadeIn 5s ease-in-out;
+    }
+
+    /* Bouquet Image */
+    .bouquet {
+      position: absolute;
+      bottom: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      height: auto;
+      animation: fadeIn 6s ease-in-out;
     }
 
     /* Wine Glasses */
@@ -155,7 +166,7 @@
   <div class="stars"></div>
 
   <div class="message">
-    Sami loves Ayesha
+    Welcome to My Side
   </div>
 
   <!-- Hearts Animation -->
@@ -167,6 +178,9 @@
   <div class="heart">♥</div>
   <div class="heart">♥</div>
 
+  <!-- Bouquet Image -->
+  <img src="https://www.pngmart.com/files/2/Flower-Bouquet-PNG-File.png" class="bouquet" alt="Bouquet">
+
   <!-- Wine Glasses -->
   <div class="wine">
     <img src="https://cdn-icons-png.flaticon.com/512/2097/2097928.png" alt="Wine Glass">
@@ -174,10 +188,10 @@
   </div>
 
   <!-- Boy Image (Replace with actual image) -->
-  <img src="https://via.placeholder.com/150/0000FF/808080?text=Boy" class="boy" alt="Sami's Picture">
+  <img src="https://via.placeholder.com/150/0000FF/808080?text=Boy" class="boy" alt="Boy">
 
   <!-- Girl Image (Replace with actual image) -->
-  <img src="https://via.placeholder.com/150/000000/FFFFFF?text=Girl" class="girl" alt="Ayesha's Picture">
+  <img src="https://via.placeholder.com/150/000000/FFFFFF?text=Girl" class="girl" alt="Girl">
 
 </body>
 </html>
